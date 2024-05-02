@@ -1,0 +1,219 @@
+body{
+    display: flex;
+    padding: 0 15% 0 10%;
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 100%; 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.red{
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+}
+.img{
+    background-color:black;
+    flex: 30%;
+    margin-bottom: 3%;
+    padding: 20px;
+}
+.profile{
+    background-color: #5DEBD7;
+    flex: 60%;
+    padding-left: 10px;
+    padding-top: -50%;
+}
+.white{
+    flex-direction: row;
+    background-color: white;
+    flex: 100%;
+    height: 100%;
+    width: 100%;
+}
+.email,.phone, .linkedin, .location{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.skill{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.skills-border{
+    display: flex;
+    width: 200px;
+    padding: 8px;
+    margin: 8%;
+    background-color: black;
+    
+}
+.skill-name{
+    color: white;
+    font-size: 15px;
+    margin-left: 20%;
+}
+.skills{
+   display: flex; 
+   flex-direction: row;
+}
+.name-border{
+    display: flex;
+    width: auto;
+    height: 38vh;
+    padding: 8px;
+    margin: 2%;
+    background-color: black;
+}
+.name{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto;
+}
+.education-border{
+    display: flex;
+    width: auto;
+    height: 5vh;
+    padding: 8px;
+    margin: 2%;
+    background-color: black;
+}
+.education{
+    color: white;
+    font-size: 18px;
+    margin: auto;
+}
+.border{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 20px 0 ;
+    text-align: center;
+}
+.my-photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+hr{
+    height: .5vh;
+    background-color: white;
+    color: white;
+}
+.edu1{
+    display: flex;
+    flex-direction: row;
+}
+.date1{
+    font-size:xx-small;
+    padding-left: 7px;
+}
+.degree{
+    width: 50vw;
+    margin: auto o;
+}
+.deg{
+    font-size: x-large;
+}
+.edu2{
+    display: flex;
+    flex-direction: row;
+}
+.date2{
+    font-size:xx-small;
+    padding-left: 7px;
+}
+.diploma{
+    width: 50vw;
+    margin:auto 0;
+}
+.dip{
+    font-size: x-large;
+}
+.work-border{
+    display: flex;
+    width: auto;
+    height: 5vh;
+    padding: 8px;
+    margin: 2%;
+    background-color: black;
+}
+.work{
+    color: white;
+    font-size: 18px;
+    margin: auto;
+}
+.work1{
+    display: flex;
+    flex-direction: row;
+}
+.date3{
+    font-size:xx-small;
+    padding-left: 7px;
+}
+.ps{
+    width: 50vw;
+    justify-content: right;
+    align-items: end;
+}
+
+ul{
+    padding-left: 0px;
+}
+.wal{
+    font-size: x-large;
+}
+.list1{
+    margin: 0 auto;
+    padding: 0 20px 20px 0;
+    display: flex;
+  
+}
+
+.contact {
+    height: 890px;
+}
+.li{
+    margin-left: 10px;
+}
+.skill-set2{
+    margin-right: 30px;
+}
+
+.work2{
+    display: flex;
+    flex-direction: row;
+}
+.date4{
+    font-size:xx-small;
+    padding-left: 7px;
+}
+.ps1{
+    width: 50vw;
+    justify-content: right;
+    align-items: end;
+}
+
+ul{
+    padding-left: 0px;
+}
+.pop{
+    font-size: x-large;
+}
+.b, .a, .c{
+    color: white;
+    height: 35vh;
+}
+.name1{
+    margin: auto;
+    font-size: 60px;
+}
+.prof{
+    margin: auto 40px;
+    font-size: 30px;
+}
